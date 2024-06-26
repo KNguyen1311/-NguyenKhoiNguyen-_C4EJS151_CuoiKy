@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.css">
+    <title>Bầu Cua</title>
+</head>
+<body>
+    <div class="Khung">
+        <div class="container">
+            <div class="Box" id="resuilt1"></div>
+            <div class="Box" id="resuilt2"></div>
+            <div class="Box" id="resuilt3"></div>
+        </div>
+        <div class="button-container">
+            <button  id="Start"   onclick="startRandomSpinning()">Quay</button>
+        </div>
+        <div class="bet-container">
+            <div class="Box" id="bet1" onclick="placeBet(0)"><img src="bau.png" id="betM1" alt="Bầu"><span id="bet1-count">0</span></div>
+            <div class="Box" id="bet2" onclick="placeBet(1)"><img src="cua.png" id="betM2" alt="Cua" ><span id="bet2-count">0</span></div>
+            <div class="Box" id="bet3" onclick="placeBet(2)"><img src="tom.png" id="betM3" alt="Tôm" ><span id="bet3-count">0</span></div>
+            <div class="Box" id="bet4" onclick="placeBet(3)"><img src="ca.png" id="betM4" alt="Cá"  ><span id="bet4-count">0</span></div>
+            <div class="Box" id="bet5" onclick="placeBet(4)"><img src="huou.png" id="betM5" alt="Hươu" ><span id="bet5-count">0</span></div>
+            <div class="Box" id="bet6" onclick="placeBet(5)"><img src="ga.png" id="betM6" alt="Gà" ><span id="bet6-count">0</span></div>
+        </div>
+        <div class="button1-container">
+            <button id="Reset"   onclick="Reset()">Đặt Lại</button>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="index.js"></script>
